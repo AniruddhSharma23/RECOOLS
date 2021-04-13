@@ -1,38 +1,223 @@
-.App {
+/* heading */
+.bt:focus {
+  box-shadow: none;
+}
+.nav.nav-center {
+  margin: 0;
+  float: none;
+}
+
+.navbar-inner {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* content */
+
+/* content1 */
+.bg1 {
+  background-image: url("https://s3.envato.com/files/253419745/EE4I3090%20copy.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+}
+.para {
+  font-size: 50px;
+  color: aliceblue;
+  width: 50%;
+}
+footer {
+  color: rgb(208, 232, 240);
+  font-size: 20px;
+  font-weight: 700;
+}
+.content1 ul {
+  width: 50%;
+}
+.content1 li {
+  overflow: hidden;
+}
+.content1 button {
+  height: 70px;
+  font-weight: 600;
+  font-size: 24px;
+
+  overflow: hidden;
+}
+.btd {
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* content2 */
+.content2 {
+  width: 100%;
+  overflow: hidden;
+}
+.content2 p {
+  color: rgb(98, 16, 175);
+
+  font-size: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* content3 */
+
+.content3 {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+.content3 img {
+  overflow: hidden;
+}
+
+.c3 {
+  font-stretch: extra-expanded;
+  color: black;
+  font-size: 40px;
+  font-stretch: expanded;
+  margin-top: 50px;
+}
+.content3 li {
+  font-size: 30px;
+  color: rgb(98, 16, 175);
+}
+
+/* content4 */
+
+.bg4 {
+  background-image: url("https://img.freepik.com/free-photo/business-people-shaking-hands-meeting-room_53876-15185.jpg?size=626&ext=jpg&ga=GA1.2.1356500412.1617235200");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+}
+.p1 {
+  color: white;
+  font-size: 50px;
+  font-stretch: extra-expanded;
+}
+.p2 {
+  color: white;
+  font-size: 30px;
+}
+
+/* content5 */
+.content5 {
+  width: 100%;
+  overflow: hidden;
+}
+.keyp {
+  border-radius: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(163, 234, 243) 0%,
+    rgb(74, 129, 231) 100.2%
+  );
+  height: 300px;
+  margin: auto;
+  width: 300px;
+  box-shadow: 5px 10px rgb(101, 16, 141);
+}
+.content5 h3 {
+  font-weight: 600;
+  font-stretch: extra-expanded;
+}
+
+/* content6  and content 7*/
+.content6 {
+  width: 100%;
+  overflow: hidden;
+}
+.p6 {
+  color: rgb(98, 16, 175);
+
+  font-size: 25px;
+}
+.b1 {
+  box-shadow: 5px 10px 10px 5px rgb(220, 220, 230);
+}
+.b1:hover {
+  box-shadow: 15px 20px 15px 20px rgb(224, 196, 224);
+}
+.content7 {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* content8 */
+.content8 {
+  width: 100%;
+  overflow: hidden;
+}
+.b8 {
+  box-shadow: 5px 10px 10px 5px rgb(220, 220, 230);
+  border-radius: 5%;
+}
+.content8 h3 {
+  color: rgb(98, 16, 175);
+}
+.content8 h5 {
+  color: grey;
+}
+.content8 h4 {
+  font-weight: 600;
+  color: rgb(48, 44, 44);
+}
+
+/* content9 */
+
+.content9 {
+}
+
+/* footer */
+
+/* footerTop */
+.ftt {
+  background-color: rgb(32, 32, 61);
+  width: 100%;
+  overflow: hidden;
+}
+
+.ftt h1 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.ftt p {
+  color: white;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ftt i {
+  color: white;
+}
+.ftt h4,
+h5 {
+  color: white;
+}
+.ftt h4 {
+  font-stretch: extra-expanded;
+}
+.ftt a {
+  font-size: 20px;
+  color: rgb(141, 141, 216);
+}
+.ftt a:hover {
+  color: rgb(78, 78, 212);
+  font-size: 21px;
+  font-weight: 800;
+}
+
+/* footer bottom */
+
+.ftb {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(16, 12, 53);
+  height: 90px;
+}
+.ftb h5 {
+  color: rgb(152, 152, 231);
 }
