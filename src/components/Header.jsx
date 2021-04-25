@@ -11,7 +11,7 @@ import {
 function Header() {
   return (
     <div className="bg-white">
-      <nav
+      {/* <nav
         class="navbar navbar-expand-lg navbar-light bg-light"
         style={{ height: "100px" }}
       >
@@ -92,7 +92,70 @@ function Header() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home" className="font-weight-bold text-dark nb">
+          <i className="fas fa-user fa-lg mx-4 mb-1"></i> Recools
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto links">
+            <Nav.Link href="/" className="mx-2 mb-1  nl text-dark">
+              Home
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link href="#feed" className="mx-2 mb-1 nl text-dark">
+              Feed
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link href="#team" className="mx-2 mb-1 nl text-dark">
+              Team
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link href="#Careers" className="mx-2 mb-1 nl text-dark">
+              Careers
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link href="#aboutus" className="mx-2 mb-1 nl text-dark">
+              AboutUs
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link
+              href="https://www.instagram.com/accounts/login/"
+              className="mx-2 mb-1 ni"
+            >
+              {" "}
+              <i class="fab fa-instagram fa-lg " style={{ color: "black" }}></i>
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link
+              href="https://www.linkedin.com/company/recools"
+              className="mx-2 mb-1 ni"
+            >
+              <i
+                class="fab fa-linkedin-in fa-lg "
+                style={{ color: "black" }}
+              ></i>
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link
+              href="https://twitter.com/RECOOLS1"
+              className="mx-2 mb-1 ni"
+            >
+              {" "}
+              <i class="fab fa-twitter fa-lg  " style={{ color: "black" }}></i>
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <Nav.Link
+              href="https://twitter.com/RECOOLS1"
+              className="mx-2 mb-1 ni"
+            >
+              {" "}
+              <i class="fab fa-facebook fa-lg  " style={{ color: "black" }}></i>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }

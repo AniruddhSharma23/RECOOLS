@@ -1,8 +1,28 @@
 import React from "react";
 import { Nav, Button } from "react-bootstrap";
+import Intro from "./video/intro.mp4";
+
 function Content1() {
   return (
-    <div className="bg1 content1">
+    <div className=" content1">
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "1000px",
+          left: "50%",
+          top: "50%",
+          overflow: "hidden",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1",
+        }}
+      >
+        <source src={Intro} type="video/mp4"></source>
+      </video>
       <div
         className="d-flex justify-content-center align-items-center row"
         style={{ height: "100%", width: "100%" }}
