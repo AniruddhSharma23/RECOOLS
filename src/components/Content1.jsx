@@ -4,7 +4,7 @@ import Intro from "./video/intro.mp4";
 
 function Content1() {
   return (
-    <div className=" content1">
+    <div className=" content1 ">
       <video
         autoPlay
         loop
@@ -12,36 +12,37 @@ function Content1() {
         style={{
           position: "absolute",
           width: "100%",
-          height: "1000px",
-          left: "50%",
-          top: "50%",
+          height: "auto",
+
           overflow: "hidden",
           objectFit: "cover",
-          transform: "translate(-50%, -50%)",
+
           zIndex: "-1",
         }}
+        id="videoBG"
       >
         <source src={Intro} type="video/mp4"></source>
       </video>
       <div
-        className="d-flex justify-content-center align-items-center row"
+        className="d-flex align-items-center"
         style={{ height: "100%", width: "100%" }}
       >
-        <blockquote class="blockquote  col-xl-6 col-lg-12 col-md-12 col-sm-12  ">
-          <p
-            className="mb-0 font-weight-bolder text-uppercase para ml-3 mr-3"
-            style={{ height: "100%", width: "100%" }}
-          >
-            THE COMMON FACTS OF TODAY ARE THE PRODUCTS OF YESTERDAY’S RESEARCH
-          </p>
-          <footer
-            style={{ height: "100%", width: "100%" }}
-            className="ml-3 mr-3"
-          >
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </footer>
-        </blockquote>
-        <ul className="navbar-nav  mt-2 mt-lg-10 ml-auto col-xl-5 col-lg-12 col-md-12 col-sm-12 ">
+        <div className="" style={{ width: "100%" }}>
+          <blockquote class="blockquote col-8  align-items-center ">
+            <p
+              className="mb-0 font-weight-bolder text-uppercase para ml-3 mr-3"
+              style={{ height: "100%", width: "100%" }}
+            >
+              THE COMMON FACTS OF TODAY ARE THE PRODUCTS OF YESTERDAY’S RESEARCH
+            </p>
+            <footer
+              style={{ height: "100%", width: "100%" }}
+              className="ml-3 mr-3"
+            >
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+          {/* <ul className="navbar-nav  mt-2 mt-lg-10 ml-auto col-xl-5 col-lg-12 col-md-12 col-sm-12 ">
           <div
             className="row d-flex justify-content-center text-center"
             style={{ width: "100%" }}
@@ -58,7 +59,8 @@ function Content1() {
               </Button>{" "}
             </li>
           </div>
-        </ul>
+        </ul> */}
+        </div>
       </div>
     </div>
   );

@@ -112,9 +112,21 @@ function Header() {
               Team
             </Nav.Link>
             <NavDropdown.Divider />
-            <Nav.Link href="#Careers" className="mx-2 mb-1 nl text-dark">
-              Careers
-            </Nav.Link>
+            <NavDropdown
+              title="Careers"
+              id="basic-nav-dropdown"
+              className="mx-2 mb-1 nl text-dark"
+            >
+              <NavDropdown.Item className=" nl text-dark">
+                Search Professors
+              </NavDropdown.Item>
+
+              <NavDropdown.Divider />
+              <NavDropdown.Item className=" nl text-dark">
+                Search Professors
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <NavDropdown.Divider />
             <Nav.Link href="#aboutus" className="mx-2 mb-1 nl text-dark">
               AboutUs

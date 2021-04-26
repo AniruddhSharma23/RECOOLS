@@ -67,7 +67,7 @@
 /* content */
 
 /* content1 */
-.bg1 {
+/* .bg1 {
   background-image: url("https://s3.envato.com/files/253419745/EE4I3090%20copy.jpg");
   height: 1000px;
   background-position: center;
@@ -75,15 +75,37 @@
   background-size: cover;
   opacity: 0.9;
   width: 100%;
+} */
+@media (min-aspect-ratio: 16/9) {
+}
+@media only screen and (min-width: 300px) {
+  .content1 {
+    height: 200px;
+  }
+  #videoBG {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .content1 {
+    height: 1000px;
+  }
+  #videoBG {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
 }
 .para {
-  font-size: 50px;
+  font-size: 2.4vw;
   color: aliceblue;
   width: 50%;
 }
 footer {
   color: rgb(208, 232, 240);
-  font-size: 20px;
+  font-size: 1.4vw;
   font-weight: 700;
 }
 .content1 ul {
